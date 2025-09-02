@@ -1,0 +1,285 @@
+body {
+    height: 100vh;
+    font-size: 16px;
+    margin: 0;
+    font-family: "Inter";
+}
+ .logo {
+        width: 220px;
+        height: 35px;
+    }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 88px;
+    padding: 16px 80px;
+    border-bottom: 1px solid #B3B3B3;
+    background-color: white;
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+
+.buttons {
+    display:flex;
+    justify-content: space-between;
+    width: 322px;
+    margin-top: 32px;
+}
+
+.btn_primary {
+    background-color: #4285F4;
+    color: white;
+    padding: 16px;
+    border: none;
+}
+
+.btn_secondary {
+    background: none;
+    color: white;
+    padding: 16px;
+    border: 1px solid #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 128px 80px;
+}
+
+.border-gradient {
+   display: inline-block;
+   width: 740px;
+   height: 569px;
+   padding: 8px;
+   background-image: linear-gradient(#4285f4 0%, #34A853 24%, #f6b51e 74%);
+   background-origin: border-box;
+   box-sizing: border-box;
+   margin-right: 12px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-card {
+ display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    background-color: #141414;
+    width: 527px;
+    height: auto;
+    padding: 40px 48px;
+    color: #fff;
+}
+
+.header01 {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+}
+
+.header02 {
+    display: flex;
+    justify-content: space-between;
+    width: 276px;
+}
+
+header {
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    padding: 0 80px;
+    border-top: 1px solid #B3B3B3;
+}
+
+.footer_side1 {
+    margin-top: 120px;
+    color: #333333;
+}
+
+.line {
+border-right: 0.8px solid #333333;
+}
+
+.footer_side2 {
+    padding: 80px 60px;
+}
+
+.social-link {
+    margin-right: 24px;
+    width: 50px;
+    height: 50px;
+}
+
+.follow {
+    font-weight: 500;
+}
+
+@media (max-width: 480px) {
+
+body {
+    font-size: 14px;
+    margin: 0;
+}
+
+.btn-nav {
+    display: none;
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 16px 0;
+}
+
+.buttons {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn_primary {
+    margin-bottom: 12px;
+}
+
+.hero {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 120px 16px 40px 16px;
+}
+
+.border-gradient {
+   width: 100%;
+   height: 300px;
+   padding: 4px;
+   background-image: linear-gradient(#4285f4 0%, #34A853 24%, #f6b51e 74%);
+   margin-right: 0;
+   margin-bottom: 16px;
+}
+
+
+.hero-card {
+    width: 100%;
+    height: 412px;
+    padding: 24px 16px;
+    box-sizing: border-box;
+}
+
+.header01 {
+    width: 260px;
+}
+
+.header02 {
+    width: 203px;
+}
+
+header {
+    font-size: 40px;
+}
+
+
+footer {
+    flex-direction: column-reverse;
+    height: 340px;
+    margin: 0;
+    padding: 40px 16px;
+    box-sizing: border-box;
+}
+
+.footer_side1 {
+    margin-top: 120px;
+}
+
+.line {
+display: none;
+}
+
+    .footer_side2 {
+    padding: 0;
+}
+
+.social-link {
+    margin-right: 24px;
+    width: 40px;
+    height: 40px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+
+    body {
+    font-size: 14px;
+    margin: 0;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 16px 24px;
+}
+
+.border-gradient {
+   display: inline-block;
+   width: 100%;
+   height: 569px;
+   padding: 8px;
+   margin-right: 0;
+   margin-bottom: 16px;
+}
+
+.hero {
+    flex-direction: column;
+    justify-content: center;
+    margin: 120px 24px 40px 24px;
+}
+
+.hero-card {
+    width: 100%;
+    padding: 24px 16px;
+    height: 569px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display:flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 32px;
+}
+
+
+.social-link {
+    margin-right: 24px;
+    width: 40px;
+    height: 40px;
+}
+footer {
+    justify-content: space-between;
+    height: 200px;
+    padding: 0 24px;
+}
+
+.footer_side1 {
+    font-size: 12px;
+}
+.footer_side2 {
+    padding: 80px 24px;
+}
+.socials {
+    display: flex;
+}
+}
