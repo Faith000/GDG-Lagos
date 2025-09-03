@@ -27,7 +27,7 @@ nav {
 .buttons {
     display:flex;
     justify-content: space-between;
-    width: 322px;
+    width: 330px;
     margin-top: 32px;
 }
 
@@ -59,7 +59,6 @@ nav {
    background-image: linear-gradient(#4285f4 0%, #34A853 24%, #f6b51e 74%);
    background-origin: border-box;
    box-sizing: border-box;
-   margin-right: 12px;
 }
 
 .hero-image {
@@ -77,6 +76,7 @@ nav {
     height: auto;
     padding: 40px 48px;
     color: #fff;
+    margin-right: 12px;
 }
 
 .header01 {
@@ -153,6 +153,11 @@ nav {
 
 .btn_primary {
     margin-bottom: 12px;
+    width: 100%;
+}
+
+.btn_secondary {
+    width: 100%;
 }
 
 .hero {
@@ -167,7 +172,6 @@ nav {
    padding: 4px;
    background-image: linear-gradient(#4285f4 0%, #34A853 24%, #f6b51e 74%);
    margin-right: 0;
-   margin-bottom: 16px;
 }
 
 
@@ -176,6 +180,7 @@ nav {
     height: 412px;
     padding: 24px 16px;
     box-sizing: border-box;
+    margin-bottom: 16px;
 }
 
 .header01 {
@@ -252,6 +257,7 @@ nav {
     padding: 24px 16px;
     height: 569px;
     box-sizing: border-box;
+    margin-bottom: 16px;
 }
 
 .buttons {
