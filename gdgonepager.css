@@ -138,10 +138,15 @@ body {
     display: none;
 }
 
+.logo {
+        width: 175px;
+        height: 28px;
+    }
+
 nav {
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 60px;
     padding: 16px 0;
 }
 
@@ -163,7 +168,7 @@ nav {
 .hero {
     flex-direction: column;
     justify-content: space-between;
-    margin: 120px 16px 40px 16px;
+    margin: 84px 16px 40px 16px;
 }
 
 .border-gradient {
@@ -198,14 +203,14 @@ header {
 
 footer {
     flex-direction: column-reverse;
-    height: 218px;
+    height: 178px;
     margin: 0;
     padding: 16px 16px;
     box-sizing: border-box;
 }
 
 .footer_side1 {
-    margin-top: 64px;
+    margin-top: 24px;
     font-size: 12px;
 }
 
