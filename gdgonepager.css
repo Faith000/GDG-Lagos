@@ -198,14 +198,15 @@ header {
 
 footer {
     flex-direction: column-reverse;
-    height: 340px;
+    height: 218px;
     margin: 0;
-    padding: 40px 16px;
+    padding: 16px 16px;
     box-sizing: border-box;
 }
 
 .footer_side1 {
-    margin-top: 120px;
+    margin-top: 64px;
+    font-size: 12px;
 }
 
 .line {
