@@ -39,8 +39,7 @@ nav {
 
 .buttons {
     display:flex;
-    justify-content: space-between;
-    width: 330px;
+    gap: 16px;
     margin-top: 32px;
 }
 
