@@ -1,18 +1,16 @@
-
 body {
     height: 100vh;
     width: 100vw;
     max-width: 1440px;
     font-size: 16px;
     margin: 0 auto;
-    font-family: "Inter";
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .body-section {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
  .logo {
@@ -39,7 +37,8 @@ nav {
 
 .buttons {
     display:flex;
-    gap: 16px;
+    justify-content: space-between;
+    width: 330px;
     margin-top: 32px;
 }
 
@@ -144,6 +143,7 @@ border-right: 0.8px solid #333333;
 
 body {
     font-size: 14px;
+    margin: 0;
 }
 
 .btn-nav {
@@ -216,7 +216,7 @@ header {
 footer {
     flex-direction: column-reverse;
     height: 178px;
-    /* margin: 0; */
+    margin: 0;
     padding: 16px 16px;
     box-sizing: border-box;
 }
@@ -245,7 +245,7 @@ display: none;
 
     body {
     font-size: 14px;
-    /* margin: 0; */
+    margin: 0;
 }
 
 nav {
@@ -267,7 +267,7 @@ nav {
 .hero {
     flex-direction: column;
     justify-content: center;
-    margin: 40px 24px;
+    margin: 120px 24px;
 }
 
 .hero-card {
