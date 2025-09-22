@@ -197,7 +197,7 @@ nav {
     height: 412px;
     padding: 24px 16px;
     box-sizing: border-box;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .header01 {
@@ -276,7 +276,7 @@ nav {
     padding: 24px 16px;
     height: 569px;
     box-sizing: border-box;
-    margin-bottom: 16px;
+
 }
 
 .buttons {
