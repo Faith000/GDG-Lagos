@@ -198,7 +198,6 @@ nav {
     height: 412px;
     padding: 24px 16px;
     box-sizing: border-box;
-    /* margin-bottom: 16px; */
 }
 
 .header01 {
@@ -269,7 +268,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     gap: 24px;
-    margin: 80px 24px;
+    margin: 40px 24px;
 }
 
 .hero-card {
