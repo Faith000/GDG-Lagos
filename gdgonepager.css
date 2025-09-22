@@ -179,7 +179,8 @@ nav {
 
 .hero {
     flex-direction: column;
-    gap: 24px;
+    justify-content: center;
+    gap: 16px;
     margin: 40px 16px;
 }
 
