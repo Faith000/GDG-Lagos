@@ -267,7 +267,8 @@ nav {
 .hero {
     flex-direction: column;
     justify-content: center;
-    margin: 120px 24px;
+    gap: 24px;
+    margin: 80px 24px;
 }
 
 .hero-card {
